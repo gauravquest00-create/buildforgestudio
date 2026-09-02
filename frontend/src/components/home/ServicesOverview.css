@@ -1,0 +1,23 @@
+.bf-services-overview {
+  background-color: var(--bg-surface);
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.bf-services-overview-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 3.5rem;
+}
+
+@media (min-width: 768px) {
+  .bf-services-overview-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.bf-services-overview-cta {
+  display: flex;
+  justify-content: center;
+}

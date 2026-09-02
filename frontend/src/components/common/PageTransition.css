@@ -1,0 +1,38 @@
+.bf-route-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  z-index: 99999;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.bf-route-loader.is-animating {
+  opacity: 1;
+}
+
+.bf-route-loader__bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold-500), var(--gold-300), var(--gold-600));
+  width: 0%;
+  animation: bf-route-fill 0.28s ease-out forwards;
+}
+
+.bf-page-container {
+  width: 100%;
+  animation: bf-fade-content 0.25s ease-out;
+}
+
+@keyframes bf-route-fill {
+  0% { width: 0%; }
+  60% { width: 80%; }
+  100% { width: 100%; }
+}
+
+@keyframes bf-fade-content {
+  from { opacity: 0.85; }
+  to { opacity: 1; }
+}

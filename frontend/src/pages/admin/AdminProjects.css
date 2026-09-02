@@ -1,0 +1,61 @@
+.bf-admin-projects-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.bf-table-thumb {
+  width: 3.5rem;
+  height: 2.25rem;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  border: 1px solid var(--border-light);
+}
+
+.bf-cell-project {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.bf-cell-project-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bf-cell-project strong {
+  font-size: 0.925rem;
+  color: var(--text-primary);
+}
+
+.bf-cell-featured-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.15rem 0.45rem;
+  background-color: var(--gold-50);
+  color: var(--gold-700);
+  border: 1px solid var(--gold-200);
+  border-radius: var(--radius-full);
+  font-size: 0.675rem;
+  font-weight: 700;
+}
+
+.bf-cell-slug {
+  font-size: 0.775rem;
+  color: var(--text-muted);
+}
+
+.bf-table-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.825rem;
+  font-weight: 600;
+  color: var(--gold-600);
+}
+
+.bf-table-muted {
+  color: var(--text-light);
+}

@@ -1,0 +1,5 @@
+/* TaskModal scoped styling */
+.bf-taskmodal {
+  display: flex;
+  flex-direction: column;
+}

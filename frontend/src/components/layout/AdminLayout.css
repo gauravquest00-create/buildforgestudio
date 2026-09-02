@@ -1,0 +1,43 @@
+.bf-admin-root {
+  display: flex;
+  min-height: 100vh;
+  background-color: #F8FAFC;
+  color: var(--text-primary);
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.bf-admin-main-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  transition: margin-left var(--transition-normal);
+  margin-left: 260px; /* default desktop sidebar width */
+}
+
+.bf-admin-root.sidebar-collapsed .bf-admin-main-wrapper {
+  margin-left: 80px; /* collapsed sidebar width */
+}
+
+@media (max-width: 1024px) {
+  .bf-admin-main-wrapper,
+  .bf-admin-root.sidebar-collapsed .bf-admin-main-wrapper {
+    margin-left: 0;
+  }
+}
+
+.bf-admin-content {
+  flex: 1;
+  padding: 2rem 1.5rem 5rem 1.5rem; /* extra bottom padding on mobile for nav bar */
+}
+
+@media (min-width: 768px) {
+  .bf-admin-content {
+    padding: 2.5rem 2rem 3rem 2rem;
+  }
+}
+
+.bf-admin-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+}

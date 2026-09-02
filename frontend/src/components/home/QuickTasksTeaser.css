@@ -1,0 +1,27 @@
+.bf-quick-tasks-teaser {
+  background-color: var(--bg-primary);
+}
+
+.bf-tasks-teaser-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+
+@media (min-width: 640px) {
+  .bf-tasks-teaser-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .bf-tasks-teaser-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.bf-tasks-teaser-cta {
+  display: flex;
+  justify-content: center;
+}

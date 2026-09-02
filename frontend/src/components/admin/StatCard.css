@@ -1,0 +1,85 @@
+.bf-stat-card {
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-xl);
+  padding: 1.5rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bf-stat-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: #CBD5E1;
+}
+
+.bf-stat-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.85rem;
+}
+
+.bf-stat-card__title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.bf-stat-card__icon-box {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bf-stat-card--gold .bf-stat-card__icon-box {
+  background-color: var(--gold-50);
+  color: var(--gold-600);
+}
+
+.bf-stat-card--blue .bf-stat-card__icon-box {
+  background-color: #EFF6FF;
+  color: #2563EB;
+}
+
+.bf-stat-card--green .bf-stat-card__icon-box {
+  background-color: #ECFDF5;
+  color: #059669;
+}
+
+.bf-stat-card--purple .bf-stat-card__icon-box {
+  background-color: #FAF5FF;
+  color: #7C3AED;
+}
+
+.bf-stat-card__val-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 0.35rem;
+}
+
+.bf-stat-card__value {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.bf-stat-card__trend {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #059669;
+}
+
+.bf-stat-card__subtext {
+  font-size: 0.775rem;
+  color: var(--text-muted);
+}

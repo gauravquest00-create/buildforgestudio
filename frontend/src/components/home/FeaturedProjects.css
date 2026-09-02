@@ -1,0 +1,33 @@
+.bf-featured-section {
+  background-color: var(--bg-primary);
+}
+
+.bf-featured-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 3.5rem;
+}
+
+@media (min-width: 768px) {
+  .bf-featured-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1100px) {
+  .bf-featured-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.bf-featured-cta {
+  display: flex;
+  justify-content: center;
+}
+
+.bf-no-featured {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-muted);
+}

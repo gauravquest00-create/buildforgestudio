@@ -1,0 +1,5 @@
+/* ProjectModal scoped styling */
+.bf-projectmodal {
+  display: flex;
+  flex-direction: column;
+}

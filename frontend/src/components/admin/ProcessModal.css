@@ -1,0 +1,5 @@
+/* ProcessModal scoped styling */
+.bf-processmodal {
+  display: flex;
+  flex-direction: column;
+}

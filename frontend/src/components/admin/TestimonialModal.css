@@ -1,0 +1,5 @@
+/* TestimonialModal scoped styling */
+.bf-testimonialmodal {
+  display: flex;
+  flex-direction: column;
+}

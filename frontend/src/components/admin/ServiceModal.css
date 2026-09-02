@@ -1,0 +1,5 @@
+/* ServiceModal scoped styling */
+.bf-servicemodal {
+  display: flex;
+  flex-direction: column;
+}

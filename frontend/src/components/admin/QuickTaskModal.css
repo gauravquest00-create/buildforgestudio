@@ -1,0 +1,5 @@
+/* QuickTaskModal scoped styling */
+.bf-quicktaskmodal {
+  display: flex;
+  flex-direction: column;
+}

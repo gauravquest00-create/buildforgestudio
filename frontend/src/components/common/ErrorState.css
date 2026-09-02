@@ -1,0 +1,30 @@
+.bf-error-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3.5rem 1.5rem;
+  background-color: #FEF2F2;
+  border: 1px solid #FEE2E2;
+  border-radius: var(--radius-lg);
+  margin: 2rem 0;
+}
+
+.bf-error-state__icon {
+  color: #EF4444;
+  margin-bottom: 1rem;
+}
+
+.bf-error-state__title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #991B1B;
+  margin-bottom: 0.4rem;
+}
+
+.bf-error-state__message {
+  font-size: 0.9rem;
+  color: #B91C1C;
+  max-width: 450px;
+  margin-bottom: 1.25rem;
+}

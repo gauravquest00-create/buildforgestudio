@@ -1,0 +1,32 @@
+.bf-admin-tasks-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.bf-cell-task {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.bf-cell-task strong {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+}
+
+.bf-cell-task span {
+  font-size: 0.775rem;
+  color: var(--text-muted);
+}
+
+.bf-cell-quote {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  font-size: 0.825rem;
+}
+
+.bf-cell-quote strong {
+  color: var(--gold-600);
+}

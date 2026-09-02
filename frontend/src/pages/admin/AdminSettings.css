@@ -1,0 +1,37 @@
+.bf-admin-settings-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.bf-settings-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.bf-settings-card {
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-xl);
+  padding: 2.25rem 2rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.bf-settings-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.bf-settings-action-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
