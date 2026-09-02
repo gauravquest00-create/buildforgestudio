@@ -168,7 +168,7 @@ export const ProjectDetail = () => {
             )}
 
             {/* Additional Gallery */}
-            {project.gallery && project.gallery.length > 0 && (
+            /* {project.gallery && project.gallery.length > 0 && (
               <div className="bf-pdetail-section">
                 <h2 className="bf-pdetail-section-title">System Screenshots</h2>
                 <div className="bf-pdetail-gallery">
@@ -181,7 +181,7 @@ export const ProjectDetail = () => {
                 </div>
               </div>
             )}
-          </div>
+          </div> */
 
           {/* Sidebar / Specs */}
           <aside className="bf-pdetail-sidebar">
