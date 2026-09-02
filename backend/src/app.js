@@ -73,6 +73,23 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 app.use(cookieParser());
 
+
+// Root Endpoint
+app.get('/', (req, res) => {
+  res.status(200).json({
+    status: 'online',
+    message: 'BuildForge Studio API is running smoothly.',
+    health: '/health',
+    endpoints: {
+      projects: '/api/projects',
+      services: '/api/services',
+      quickTasks: '/api/quick-tasks',
+      enquiries: '/api/enquiries'
+    }
+  });
+});
+
+
 // Health Check
 app.get('/health', (req, res) => {
   res.status(200).json({
