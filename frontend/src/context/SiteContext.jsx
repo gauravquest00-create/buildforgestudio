@@ -9,7 +9,7 @@ export const SiteProvider = ({ children }) => {
     tagline: 'An online development studio for modern businesses.',
     coreMessage: 'We build digital systems that solve real business problems.',
     businessEmail: 'hello@buildforgestudio.com',
-    whatsappNumber: '+91 98765 43210',
+    whatsappNumber: '+91 8130839987',
     whatsappMessage: 'Hi BuildForge Studio, I would like to discuss a project or quick development task.',
     socialLinks: {
       linkedin: 'https://linkedin.com',
